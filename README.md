@@ -20,17 +20,17 @@ This portfolio features my current key projects:
 ```
 root
 ├── index.html              # Main homepage
-├── _config.yml            # Jekyll configuration
+├── _config.yml             # Jekyll configuration
 ├── _layouts/
-│   └── default.html       # Main layout template
+│   └── default.html        # Main layout template
 ├── _data/
-│   ├── projects.yml       # Projects data
-│   └── articles.yml       # Articles data
+│   ├── projects.yml        # Projects data
+│   └── articles.yml        # Articles data
 ├── assets/
 │   ├── css/
-│   │   └── main.css      # Main stylesheet
-│   └── images/           # Image assets
-└── README.md             # This file
+│   │   └── main.css        # Main stylesheet
+│   └── images/             # Image assets
+└── README.md               # This file
 ```
 ## Deployment
 
