@@ -38,4 +38,4 @@ This site is automatically deployed via GitHub Pages when changes are pushed to 
 
 ---
 
-Built with Jekyll and hosted on GitHub Pages --> **https://adityagurung.github.io/**
+Built with Jekyll and hosted on GitHub Pages --> **[link](https://adityagurung.github.io/)**
