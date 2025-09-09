@@ -1,1 +1,59 @@
+# Site configuration
+title: "Aditya Gurung - Lead Data Engineer"
+description: "Personal portfolio of Aditya Gurung - Lead Data Engineer and Freelancer specializing in SQL, Python, Spark, Azure Cloud, and Docker"
+baseurl: ""
+url: "https://adityagurung.github.io"
 
+# Author information
+author:
+  name: "Aditya Gurung"
+  title: "Lead Data Engineer | Freelancer"
+  skills: "SQL, Python, Spark, Azure Cloud, Docker"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  projects:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Social links (optional - add as needed)
+social:
+  github: "Adityagurung"
+  linkedin: ""
+  email: ""
+
+# Site navigation
+navigation:
+  - name: "About"
+    target: "about"
+  - name: "Projects"  
+    target: "projects"
+  - name: "Articles"
+    target: "articles"
