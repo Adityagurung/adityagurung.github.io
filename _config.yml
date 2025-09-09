@@ -1,13 +1,13 @@
 # Site configuration
-title: "Aditya Gurung - Lead Data Engineer"
-description: "Personal portfolio of Aditya Gurung - Lead Data Engineer and Freelancer specializing in SQL, Python, Spark, Azure Cloud, and Docker"
+title: "Aditya Gurung - Data Engineer"
+description: "Personal portfolio of Aditya Gurung - Data Engineer and Freelancer specializing in SQL, Python, Spark, Azure Cloud, and Docker"
 baseurl: ""
 url: "https://adityagurung.github.io"
 
 # Author information
 author:
   name: "Aditya Gurung"
-  title: "Lead Data Engineer | Freelancer"
+  title: "Data Engineer | Freelancer"
   skills: "SQL, Python, Spark, Azure Cloud, Docker"
 
 # Build settings
