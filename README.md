@@ -1,10 +1,8 @@
-# Aditya Gurung's Portfolio
-
-Welcome to my personal portfolio website! This is a GitHub Pages site showcasing my work as a Lead Data Engineer and Freelancer.
+Welcome to my personal portfolio website! This is a GitHub Pages site showcasing my work.
 
 ## About Me
 
-I'm Aditya Gurung, a Lead Data Engineer and Freelancer with expertise in:
+Hi!, I'm Aditya Gurung, a Lead Data Engineer and Freelancer with expertise in:
 - SQL
 - Python  
 - Spark
@@ -20,7 +18,7 @@ This portfolio features my key projects including:
 ## Site Structure
 
 ```
-/
+root
 ├── index.html              # Main homepage
 ├── _config.yml            # Jekyll configuration
 ├── _layouts/
