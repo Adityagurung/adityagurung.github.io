@@ -1,7 +1,7 @@
 - title: "Brahman.ai - Your Smart Travel Assistant"
   link: "https://github.com/Adityagurung/Brahman.ai"
   description: "I built advanced Retrieval-Augmented Generation (RAG) platform for seamless travel planning and destination exploration"
-  stack: "all the tech stack I used in the project"
+  stack: "OpenAI, LangChain, Qdrant, FastAPI, Ollama, Docker, PostgreSQL, PgAdmin, Streamlit, Grafana, Marker"
   image: "/assets/images/Brahman.ai.png"
   preview_gif: "/assets/images/Brahman.ai.gif"
   screenshot: "/assets/images/Brahman.ai.png"
