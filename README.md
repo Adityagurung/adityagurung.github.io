@@ -1,4 +1,4 @@
-Welcome to my personal portfolio website! This is a GitHub Pages site showcasing my work.
+Welcome to my personal portfolio website! This is a GitHub Pages source code of my website showcasing my work.
 
 ## About Me
 
@@ -11,11 +11,11 @@ Hi!, I'm Aditya Gurung, a Lead Data Engineer and Freelancer with expertise in:
 
 ## Projects
 
-This portfolio features my key projects including:
+This portfolio features my current key projects:
 - **Brahman.ai** - Your Smart Travel Assistant
 - **The Football Pundits** - Decoding the beautiful game
 
-## Site Structure
+## Directory Structure
 
 ```
 root
@@ -32,17 +32,6 @@ root
 │   └── images/           # Image assets
 └── README.md             # This file
 ```
-
-## Local Development
-
-To run this site locally:
-
-1. Install Jekyll: `gem install jekyll bundler`
-2. Clone this repository
-3. Run `bundle install`
-4. Run `jekyll serve`
-5. Visit `http://localhost:4000`
-
 ## Deployment
 
 This site is automatically deployed via GitHub Pages when changes are pushed to the main branch.
