@@ -12,7 +12,7 @@ Hi!, I'm Aditya Gurung, a Lead Data Engineer and Freelancer with expertise in:
 ## Projects
 
 This portfolio features my current key projects:
-- **Brahman.ai** - Your Smart Travel Assistant
+- **Bhramana.ai** - Your Smart Travel Assistant
 - **The Football Pundits** - Decoding the beautiful game
 
 ## Directory Structure
