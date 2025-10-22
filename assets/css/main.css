@@ -1077,11 +1077,7 @@ body {
     padding: var(--space-32) var(--space-32) 4rem var(--space-32);
     max-width: var(--container-xl);
     margin: 0 auto;
-    text-align: center;
     min-height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .work-in-progress {
@@ -1326,17 +1322,16 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* Case Study Type badge - distinguishes content type */
+/* Case Study Type badge - matches category badge styling exactly */
 .case-study-type {
-    background: var(--color-secondary);
-    color: var(--color-text);
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
     padding: 0.4rem 1rem;
     border-radius: var(--radius-sm);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    border: 1px solid var(--color-border);
 }
 
 /* Date and reading time styling */
