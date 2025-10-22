@@ -1281,3 +1281,227 @@ body {
         justify-content: center;
     }
 }
+
+/* ============================================
+   CASE STUDY STYLES
+   Added for TskPharma case study display
+   ============================================ */
+
+/* Case Study Container - Uses existing design tokens for consistency */
+.case-study-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: var(--color-surface) !important;
+    border-radius: var(--radius-lg);
+    padding: 3rem;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-card-border);
+}
+
+/* Case Study Header Section */
+.case-study-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+/* Metadata badges (category, date, reading time) displayed in a row */
+.case-study-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Category badge - uses primary color from your design system */
+.case-study-category {
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+    padding: 0.4rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Date and reading time styling */
+.case-study-date,
+.case-study-reading-time {
+    color: var(--color-text-secondary) !important;
+    font-size: var(--font-size-base);
+}
+
+/* Main case study title */
+.case-study-title {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text) !important;
+    line-height: var(--line-height-tight);
+    margin: 1rem 0;
+}
+
+/* Subtitle below main title */
+.case-study-subtitle {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-secondary) !important;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: 1.5rem;
+}
+
+/* Tag container for technology/topic tags */
+.case-study-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+/* Individual tag styling - uses secondary color scheme */
+.tag {
+    background: var(--color-secondary);
+    color: var(--color-text) !important;
+    padding: 0.4rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    transition: background-color var(--duration-fast) var(--ease-standard);
+}
+
+.tag:hover {
+    background: var(--color-secondary-hover);
+}
+
+/* Content Sections */
+.case-study-section {
+    margin-bottom: 3rem;
+}
+
+/* Major section titles (Executive Summary, Solution Design, etc.) */
+.section-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text) !important;
+    margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 3px solid var(--color-primary);
+    display: inline-block;
+}
+
+/* Subsection titles (individual questions within Solution Design) */
+.subsection-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text) !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Body text paragraphs - optimized for readability */
+.case-study-text {
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+    color: var(--color-text) !important;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Bold text within paragraphs for emphasis */
+.case-study-text strong {
+    color: var(--color-text) !important;
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Architecture Diagram Styling */
+.architecture-diagram {
+    margin: 2.5rem 0;
+    text-align: center;
+    background: var(--color-background);
+    padding: 2rem;
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-border);
+}
+
+/* The diagram image itself - responsive and with shadow for depth */
+.diagram-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-base);
+    box-shadow: var(--shadow-md);
+}
+
+/* Caption below the diagram */
+.diagram-caption {
+    margin-top: 1.5rem;
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary) !important;
+    font-style: italic;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Case Study Footer */
+.case-study-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--color-border);
+    text-align: center;
+}
+
+/* Author byline at the bottom */
+.prepared-by {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary) !important;
+    font-style: italic;
+}
+
+/* Responsive Design for Case Study */
+@media (max-width: 768px) {
+    /* Reduce padding and font sizes on tablets */
+    .case-study-container {
+        padding: 2rem 1.5rem;
+    }
+    
+    .case-study-title {
+        font-size: 2rem;
+    }
+    
+    .case-study-subtitle {
+        font-size: var(--font-size-lg);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-xl);
+    }
+    
+    .subsection-title {
+        font-size: var(--font-size-lg);
+    }
+    
+    .case-study-text {
+        font-size: var(--font-size-base);
+        text-align: left; /* Left-align on smaller screens for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further optimize for mobile phones */
+    .articles-section {
+        padding: 2rem 1rem;
+    }
+    
+    .case-study-container {
+        padding: 1.5rem 1rem;
+        border-radius: var(--radius-base);
+    }
+    
+    /* Stack metadata vertically on small screens */
+    .case-study-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .case-study-title {
+        font-size: 1.6rem;
+    }
+}

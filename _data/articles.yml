@@ -1,5 +1,7 @@
-- title: "Coming Soon"
-  date: "2025-09-09"
-  description: "Exciting articles about data engineering, cloud technologies, and project experiences are in development."
-  category: "general"
-  published: false
+- title: "Building a Cloud-Native Commercial Data Platform for TskPharma"
+  date: "2025-10-22"
+  description: "A comprehensive case study on designing and implementing an end-to-end commercial data infrastructure for a pharmaceutical company, integrating traditional business intelligence with cutting-edge AI capabilities."
+  category: "Data Engineering"
+  published: true
+  tags: ["Azure", "Data Architecture", "AI/ML", "Pharmaceutical", "Data Engineering", "Cloud Engineering"]
+  read_time: "25 min read"
