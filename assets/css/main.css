@@ -1326,6 +1326,19 @@ body {
     letter-spacing: 0.5px;
 }
 
+/* Case Study Type badge - distinguishes content type */
+.case-study-type {
+    background: var(--color-secondary);
+    color: var(--color-text);
+    padding: 0.4rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--color-border);
+}
+
 /* Date and reading time styling */
 .case-study-date,
 .case-study-reading-time {
