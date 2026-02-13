@@ -2,7 +2,7 @@ Welcome to my personal portfolio website! This is a GitHub Pages source code of 
 
 ## About Me
 
-Hi!, I'm Aditya Gurung, a Lead Data Engineer and Freelancer with expertise in:
+Hi!, I'm Aditya Gurung, a Data Engineer and Freelancer with expertise in:
 - SQL
 - Python  
 - Spark
