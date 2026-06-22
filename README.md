@@ -6,14 +6,17 @@ Hi!, I'm Aditya Gurung, a Data Engineer and Freelancer with expertise in:
 - SQL
 - Python  
 - Spark
-- Azure Cloud
+- Azure Ecosystem
 - Docker
+- Agentic RAG
 
 ## Projects
 
 This portfolio features my current key projects:
+- **-MedJuras.AI** - Your Medical Research Assistant
 - **Brahman.ai** - Your Smart Travel Assistant
 - **The Football Pundits** - Decoding the beautiful game
+
 
 ## Directory Structure
 
