@@ -1,3 +1,11 @@
+- title: "Medjuras.AI - Assistant RAG for Healthcare Research Compliance"
+  link: "https://github.com/Adityagurung/Medjuras.AI-Assistant-RAG-for-healthcare-research-compliance"
+  description: "I built an advanced RAG system for medical research, healthcare information, and EU regulatory compliance with citation-backed, role-based responses"
+  stack: "Agents, LangChain, Vector DB, Huggingface, Streamlit, PostgreSQL, Grafana, Docker Compose, FastEmbed"
+  image: "/assets/images/Medjuras.AI.png"
+  preview_gif: "/assets/images/Medjuras.AI.png"
+  screenshot: "/assets/images/Medjuras.AI.png"
+
 - title: "Brahman.ai - Your Smart Travel Assistant"
   link: "https://github.com/Adityagurung/Brahman.ai"
   description: "I built advanced Retrieval-Augmented Generation (RAG) platform for seamless travel planning and destination exploration"
