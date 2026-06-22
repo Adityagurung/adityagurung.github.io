@@ -13,7 +13,7 @@ Hi!, I'm Aditya Gurung, a Data Engineer and Freelancer with expertise in:
 ## Projects
 
 This portfolio features my current key projects:
-- **-MedJuras.AI** - Your Medical Research Assistant
+- **MedJuras.AI** - Your Medical Research Assistant
 - **Brahman.ai** - Your Smart Travel Assistant
 - **The Football Pundits** - Decoding the beautiful game
 
